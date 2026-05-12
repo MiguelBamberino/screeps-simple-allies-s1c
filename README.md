@@ -12,7 +12,7 @@ V0.2.0 Improvements/Changes:
 - added the ability to reset and remove requests without completely resetting your requests
 
 V0.1.0 Improvements/Changes:
-- It now keets a local stash of ally data, so you can read their requests on any tick, even if you can't see their segment
+- It now keeps a local stash of ally data, so you can read their requests on any tick, even if you can't see their segment
 - CPU improvements, by storing raw string data and parsing JSON on demand.
 - added player synced nuke bombarding, design for exactly 1 nuker per X ticks, using requestBarrage() + getOpenBarrageJobs()
 - Added read wrappers for making it easier for player bots to access/filter what they want to read
